@@ -7,5 +7,6 @@ export default {
             ],
             useCSSLayers: true,
         },
+        autoprefixer: {},
     }
 }
