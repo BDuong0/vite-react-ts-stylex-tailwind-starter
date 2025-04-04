@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <button {...stylex.props(styles.button)}>Click me</button>
+      <button {...stylex.props(styles.button)}>StyleX Button</button>
     </>
   )
 }
