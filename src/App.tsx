@@ -14,7 +14,7 @@ console.log(styles)
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1 className="underline">Vite + React</h1>
       <button {...stylex.props(styles.button)}>StyleX Button</button>
     </>
   )
