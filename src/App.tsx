@@ -9,15 +9,19 @@ const styles = stylex.create({
   },
 });
 
-console.log(styles)
+console.log(styles);
 
 function App() {
   return (
     <>
-      <h1 className="underline">Vite + React</h1>
-      <button {...stylex.props(styles.button)}>StyleX Button</button>
+      <h1 className="bg-amber-800 text-white underline">
+        This H1 is styled with TailWind
+      </h1>
+      <button {...stylex.props(styles.button)}>
+        This button is styled with StyleX
+      </button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
