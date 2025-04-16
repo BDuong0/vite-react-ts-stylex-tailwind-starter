@@ -14,9 +14,12 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import "./commands";
 
-import { mount } from 'cypress/react'
+import { mount } from "cypress/react";
+
+// Load dark mode for the Cypress window UI
+import "cypress-runner-themes";
 
 // Augment the Cypress namespace to include type definitions for
 // your custom command.
@@ -25,12 +28,12 @@ import { mount } from 'cypress/react'
 declare global {
   namespace Cypress {
     interface Chainable {
-      mount: typeof mount
+      mount: typeof mount;
     }
   }
 }
 
-Cypress.Commands.add('mount', mount)
+Cypress.Commands.add("mount", mount);
 
 // Example use:
 // cy.mount(<MyComponent />)
