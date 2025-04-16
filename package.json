@@ -28,6 +28,7 @@
     "autoprefixer": "^10.4.21",
     "axe-core": "^4.10.3",
     "cypress": "^14.3.0",
+    "cypress-axe": "^1.6.0",
     "cypress-runner-themes": "^1.0.3",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
