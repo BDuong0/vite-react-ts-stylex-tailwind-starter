@@ -13,14 +13,14 @@ console.log(styles);
 
 function App() {
   return (
-    <>
+    <main>
       <h1 className="bg-amber-800 text-white underline">
         This H1 is styled with TailWind
       </h1>
       <button {...stylex.props(styles.button)}>
         This button is styled with StyleX
       </button>
-    </>
+    </main>
   );
 }
 
