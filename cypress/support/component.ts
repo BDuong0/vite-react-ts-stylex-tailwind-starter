@@ -21,6 +21,9 @@ import { mount } from "cypress/react";
 // Load dark mode for the Cypress window UI
 import "cypress-runner-themes";
 
+// Import Axe for automated accessibility testing
+import "cypress-axe";
+
 // Augment the Cypress namespace to include type definitions for
 // your custom command.
 // Alternatively, can be defined in cypress/support/component.d.ts
