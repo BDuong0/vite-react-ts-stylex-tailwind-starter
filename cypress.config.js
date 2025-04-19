@@ -6,7 +6,6 @@ export default defineConfig({
       framework: "react",
       bundler: "vite",
     },
-    indexHtmlFile: "index.html",
     env: {
       theme: "dark",
     },
