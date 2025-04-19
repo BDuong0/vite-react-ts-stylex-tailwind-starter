@@ -24,6 +24,10 @@ import "cypress-runner-themes";
 // Import Axe for automated accessibility testing
 import "cypress-axe";
 
+// Ensure global styles are loaded
+import "../../src/index.css"; // Import TailwindCSS
+import "../../src/index2.css"; // Import StyleX styles
+
 // Augment the Cypress namespace to include type definitions for
 // your custom command.
 // Alternatively, can be defined in cypress/support/component.d.ts
