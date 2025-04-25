@@ -24,6 +24,9 @@ import "cypress-runner-themes";
 // Import Axe for automated accessibility testing
 import "cypress-axe";
 
+// Import cypress-real-events for more reliable way to test user events
+import "cypress-real-events";
+
 // Ensure global styles are loaded
 import "../../src/index.css"; // Import TailwindCSS
 import "../../src/index2.css"; // Import StyleX styles
