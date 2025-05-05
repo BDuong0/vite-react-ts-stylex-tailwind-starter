@@ -1,4 +1,5 @@
 import * as stylex from "@stylexjs/stylex";
+import { useState } from "react";
 
 const styles = stylex.create({
   header: {
@@ -9,6 +10,8 @@ const styles = stylex.create({
 });
 
 const Test_Component = () => {
+  const [headerState, setHeaderState] = useState(true);
+
   return (
     <div>
       <h2 data-cy="test-component" {...stylex.props(styles.header)}>
