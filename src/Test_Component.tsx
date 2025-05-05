@@ -7,6 +7,11 @@ const styles = stylex.create({
     color: "white",
     border: "1px solid red",
   },
+  title: {
+    backgroundColor: "rgb(255, 0, 251)",
+    fontWeight: "bold",
+    color: "white",
+  },
 });
 
 const Test_Component = () => {
