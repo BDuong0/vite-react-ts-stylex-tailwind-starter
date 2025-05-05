@@ -19,7 +19,10 @@ const Test_Component = () => {
 
   return (
     <div>
-      <h2 data-cy="test-component" {...stylex.props(styles.header)}>
+      <h2
+        data-cy="test-component"
+        {...stylex.props(headerState ? styles.header : styles.title)}
+      >
         Element with StyleX styles applied
       </h2>
       <p className="bg-amber-500 font-bold">
