@@ -25,6 +25,14 @@ const Test_Component = () => {
       >
         Element with StyleX styles applied
       </h2>
+      <button
+        className="rounded-full bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+        onClick={() => {
+          setHeaderState((headerState) => !headerState);
+        }}
+      >
+        Click to change the CSS styles of the StyleX header
+      </button>
       <p className="bg-amber-500 font-bold">
         Element with Tailwind styles applied
       </p>
