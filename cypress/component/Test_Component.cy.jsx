@@ -20,6 +20,15 @@ describe("<Test_Component />", () => {
     );
   });
 
+  it("should have the background-color rgb(255, 0, 251)/pink when test-button is clicked", () => {
+    cy.get("@test-button").realClick();
+    cy.get("@test-component").should(
+      "have.css",
+      "background-color",
+      "rgb(255, 0, 251)",
+    );
+  });
+
   it("should run automated accessibility tests with axe-core", () => {
     cy.injectAxe();
     cy.checkA11y();
