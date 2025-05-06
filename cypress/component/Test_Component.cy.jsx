@@ -5,6 +5,7 @@ describe("<Test_Component />", () => {
     cy.mount(<Test_Component />);
 
     cy.get('[data-cy="test-component"]').as("test-component");
+    cy.get('[data-cy="test-button"]').as("test-button");
   });
 
   it("renders in the DOM", () => {
