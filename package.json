@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "check-updates": "ncu"
   },
   "dependencies": {
     "@stylexjs/stylex": "^0.12.0",
