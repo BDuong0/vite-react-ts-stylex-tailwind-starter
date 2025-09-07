@@ -5,7 +5,7 @@ const styles = stylex.create({
     backgroundColor: "blue",
     color: "white",
     padding: "10px 20px",
-    borderRadius: "5px",
+    "border-radius": "5px",
   },
 });
 
